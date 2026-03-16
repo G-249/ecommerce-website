@@ -1,0 +1,62 @@
+:root{
+
+--primary:#116466;
+--secondary:#D9B08C;
+--accent:#FFCB9A;
+--light:#F4F4F4;
+
+}
+
+body{
+
+font-family:Segoe UI;
+background:var(--light);
+
+}
+
+.navbar{
+
+background:var(--primary);
+
+}
+
+.nav-link{
+
+color:white !important;
+
+}
+
+.nav-link:hover{
+
+color:var(--accent) !important;
+
+}
+
+.profile-img{
+
+width:150px;
+height:150px;
+object-fit:cover;
+
+}
+
+h2{
+
+border-bottom:3px solid var(--secondary);
+display:inline-block;
+padding-bottom:5px;
+
+}
+
+.card{
+
+border-top:4px solid var(--accent);
+
+}
+
+footer{
+
+background:var(--primary);
+color:white;
+
+}
